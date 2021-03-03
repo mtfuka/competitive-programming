@@ -1,3 +1,3 @@
 # competitive-programming
-accounts
-AtCoder : mtfuka
+account
+AtCoder : https://atcoder.jp/users/mtfuka
