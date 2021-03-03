@@ -1,16 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-  int N;
-  cin >> N;
-  string S;
-  cin >> S;
+int main(){
+  string text;
+  cin >> text;
 
-  for (int i = 0; i < S.size() ; i++){
-    S.at(i) += N;
-    if(S.at(i)>'Z')
-      S.at(i) -= 26;
+  for(int i=0;i<text.size();i++){
+
+    if(i%2==0){
+      if(!(text[i]=='R'||text[i]=='U'||text[i]=='D')){
+        cout << "No" << endl;
+        return 0;
+      }
     }
-  cout << S << endl;
+     if(i%2==1){
+      if(!(text[i]=='L'||text[i]=='U'||text[i]=='D')){
+        cout << "No" << endl;
+        return 0;
+      }
+       }
+  }
+cout << "Yes" << endl;
 }
