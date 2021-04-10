@@ -1,0 +1,5 @@
+A,B,W = map(int, input().split())
+max=int(1000*W/A)
+min=int((1000*W+B-1)/B)
+if(1000*W-A*max<=(B-A)*max):print(min,max)
+else:print("UNSATISFIABLE")
