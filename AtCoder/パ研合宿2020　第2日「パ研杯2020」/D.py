@@ -1,0 +1,5 @@
+N,K = map(int,input().split())
+if K<N:print(K**3)
+elif N<=K<2*N:print(K**3-(K-N)**3*3)
+elif 2*N<=K<3*N:print(N**3*6-(3*N-K)**3)
+else:print(N**3*6)
