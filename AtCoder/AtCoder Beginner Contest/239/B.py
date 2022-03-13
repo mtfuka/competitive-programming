@@ -1,0 +1,5 @@
+X=input()
+if 0<=int(X)<10:print(0)
+elif int(X)%10==0 or int(X)>0:print(X[:-1])
+elif -10<int(X)<0:print(-1)
+else:print(int(X[:-1])-1)
