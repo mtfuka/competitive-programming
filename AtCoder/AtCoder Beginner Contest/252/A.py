@@ -1,3 +1,1 @@
-N=int(input())
-alphabet="abcdefghijklmnopqrstuvwxyz"
-print(alphabet[N-97])
+print(chr(int(input())))
