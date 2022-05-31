@@ -1,8 +1,8 @@
 MOD=998244353
 N,M=map(int,input().split())
 m=len(bin(M))-2
-dp=[[0 for j in range(m)]for i in range(60)]
 if N>60:exit(print(0))
+dp=[[0 for j in range(m)]for i in range(N+1)]
 for j in range(m):
     dp[1][j]=2**j%MOD
     if j==m-1:dp[1][j]=(M-2**j+1)%MOD
