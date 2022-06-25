@@ -1,0 +1,5 @@
+S=input()
+a=int(S[0])
+b=int(S[1])
+c=int(S[2])
+print(111*(a+b+c))
