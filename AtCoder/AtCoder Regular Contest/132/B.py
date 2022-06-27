@@ -1,0 +1,5 @@
+n=int(input())
+p=list(map(int,input().split()))
+i=p.index(1)
+if p[(i+1)%n]==2:print(min(i,n-i+2))
+else:print(min(i+2,n-i))
