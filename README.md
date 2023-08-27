@@ -1,3 +1,4 @@
 # competitive-programming
-account
-AtCoder : https://atcoder.jp/users/mtfuka
+accepted code
+## account
+[AtCoder](https://atcoder.jp) : [mtfuka](https://atcoder.jp/users/mtfuka)
